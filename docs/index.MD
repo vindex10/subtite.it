@@ -15,7 +15,7 @@ The service integrates seamlessly into your everyday workflow. Try out Subtite a
 
 ## Install plugin for your browser now
 
-<center ![Install plugin for browser now](./install.png) >
+<center> ![Install plugin for browser now](./install.png) <\center>
 
 ## Inspiration
 
