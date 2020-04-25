@@ -1,7 +1,7 @@
 # Subtite.it
 ## by Scribefellas
 
-(./lable.jpg)
+![Lifting the linguistic lockdown](./lable.jpg)
 
 Subtite is the first community-driven service for transcribing educational content. It allows motivated learners to make knowledge available beyond the existing language barriers. Just follow three simple steps:
 
@@ -13,7 +13,7 @@ Subtite is the first community-driven service for transcribing educational conte
 
 The service integrates seamlessly into your everyday workflow. Try out Subtite and start lifting the language barriers all around the world!
 
-![Install plugin for browser now](./download.jpg)
+![Install plugin for browser now](./install.jpg)
 
 ## Inspiration
 
