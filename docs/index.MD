@@ -13,7 +13,7 @@ Subtite is the first community-driven service for transcribing educational conte
 
 The service integrates seamlessly into your everyday workflow. Try out Subtite and start lifting the language barriers all around the world!
 
-![Install plugin for browser now](./install.jpg)
+![Install plugin for browser now](./install.png)
 
 ## Inspiration
 
@@ -25,6 +25,11 @@ We think that having access to the world-leading online courses and the best TV 
 
 We believe that in many ways, the post-corona world can be a newer and better place - not only that of grief and economic uncertainty. If anything, global online integration is the way to go. However, language barriers still serve as the online equivalent of a lockdown. If we can lift it, let’s do it now!
 
+## Challenges
+
+In the development of this service, we are going to meet the two crucial challenges. One is to offer the relevant tasks to the viewers, meeting both their motivation level and the sphere of expertise. The other is to combine contributions of different viewers into high-quality content.
+
+During the EU vs Virus hackathon, we aim to give a prototype solution to these key problems, focusing on the specific context of educational resources (such as Coursera, edX and many Youtube channels).
 
 ##  Find out more about business and research justification
 
