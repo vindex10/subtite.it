@@ -1,7 +1,7 @@
 # Subtite.it
 ## by Scribefellas
 
-![Весенняя школа по математике и физике](./lable.jpg)
+(./lable.jpg)
 
 Subtite is the first community-driven service for transcribing educational content. It allows motivated learners to make knowledge available beyond the existing language barriers. Just follow three simple steps:
 
