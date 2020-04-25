@@ -13,9 +13,7 @@ Subtite is the first community-driven service for transcribing educational conte
 
 The service integrates seamlessly into your everyday workflow. Try out Subtite and start lifting the language barriers all around the world!
 
-## Install plugin for your browser now
-
-<center> ![Install plugin for browser now](./install.png) <\center>
+[ __Install plugin for your browser now!__ ](./download.md) 
 
 ## Inspiration
 
