@@ -1,6 +1,14 @@
 @import url(/normalize.css);
 @import url(/jquery.qtip.min.css);
 
+@media only handheld {
+	.install-button {
+		height: 100%;
+		width: 100%;
+		display: inline-block
+	}
+}
+
 body {
 	background: #e6e6ff;
 	color: #5c5855;
