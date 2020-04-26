@@ -9,7 +9,7 @@
 	}
 }
 
-@media screen {
+@media only screen {
 	.install-button {
 		height: 40%;
 		width: 40%;
