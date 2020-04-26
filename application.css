@@ -8,7 +8,7 @@
 	}
 }
 
-@media screen {
+@media (min-width: 400px) {
 	.install-button {
 		display: inline-block;
 		width: 50%
