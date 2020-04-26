@@ -1,10 +1,18 @@
 @import url(/normalize.css);
 @import url(/jquery.qtip.min.css);
 
-.install-button {
-	height: 100%;
-	width: 100%;
-	display: inline-block
+@media handheld {
+	.install-button {
+		display: inline-block;
+		width: 100%
+	}
+}
+
+@media screen {
+	.install-button {
+		display: inline-block;
+		width: 50%
+	}
 }
 
 body {
