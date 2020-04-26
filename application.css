@@ -3,8 +3,8 @@
 
 @media handheld {
 	.install-button {
-		height: 25%;
-		width: 25%;
+		height: 35%;
+		width: 35%;
 		display: inline-block
 	}
 }
