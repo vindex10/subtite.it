@@ -4,14 +4,14 @@
 @media (max-width: 400px) {
 	.install-button {
 		display: inline-block;
-		width: 100%
+		width: 80%;
 	}
 }
 
 @media (min-width: 400px) {
 	.install-button {
 		display: inline-block;
-		width: 50%
+		width: 40%;
 	}
 }
 
@@ -25,6 +25,26 @@ a {
 	color: #149ad4;
 	font-weight: bold;
 	text-decoration: none
+}
+
+header {
+    display: flex;
+    align-items: flex-start;
+}
+
+header .logo {
+	color: #444;
+	font-family: Chivo, "Helvetica Neue", Helvetica, Arial, serif;
+	font-weight: 900;
+	line-height: 1.1;
+    font-size: 36pt;
+    margin-left: 1em;
+}
+
+.subtitle {
+    margin: 0 auto 20px 40px;
+    font-style: italic;
+    text-align:left;
 }
 
 a:hover {
@@ -89,7 +109,7 @@ strong {
 }
 
 .container {
-	margin: 40px auto;
+	margin: 0 auto;
 	width: 940px
 }
 
@@ -98,7 +118,7 @@ strong {
 }
 
 .home h1 {
-	font-size: 60px
+	font-size: 40px;
 }
 
 .home h2 {
@@ -120,18 +140,24 @@ strong {
 
 .triptych {
 	width: 900px;
-	margin: 0 auto 20px
+	margin: 20px auto 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .triptych li {
-	width: 280px;
-	float: left;
-	margin-left: 27px
+	width: 300px;
+    margin: 0 20px;
 }
 
-.triptych li:first-child {
-	margin-left: 0
+.triptych li p {
+    margin: 0;
 }
+
+.triptych.alignleft li p {
+    text-align: left;
+}
+
 
 .triptych li>a {
 	text-decoration: none
@@ -139,8 +165,9 @@ strong {
 
 .triptych h3 {
 	font-size: 22px;
-	margin: 0 auto 20px auto;
-	width: 220px
+	margin: 0 auto 0.3em auto;
+	width: 220px;
+    min-height: 2em;
 }
 
 .situations .existing {
