@@ -1,24 +1,10 @@
 @import url(/normalize.css);
 @import url(/jquery.qtip.min.css);
 
-@media (max-width: 400px) {
-	.install-button {
-		display: inline-block;
-		width: 80%;
-	}
-}
-
-@media (min-width: 400px) {
-	.install-button {
-		display: inline-block;
-		width: 40%;
-	}
-}
-
 body {
 	background: #e6e6ff;
 	color: #5c5855;
-	font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif
+	font: 12pt/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
 a {
@@ -27,24 +13,65 @@ a {
 	text-decoration: none
 }
 
-header {
+.duo {
+    align-items: center;
     display: flex;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
 
-header .logo {
+.duo-left {
+    flex-grow: 2;
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+
+.duo-right {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 550px;
+}
+
+.duo-left, .duo-right {
+    margin-bottom: 2em;
+}
+
+.header {
+    align-items: flex-end;
+}
+
+.logo {
 	color: #444;
 	font-family: Chivo, "Helvetica Neue", Helvetica, Arial, serif;
 	font-weight: 900;
-	line-height: 1.1;
+	line-height: 36pt;
     font-size: 36pt;
-    margin-left: 1em;
+    text-align: center;
 }
 
 .subtitle {
-    margin: 0 auto 20px 40px;
     font-style: italic;
-    text-align:left;
+    font-size: 12pt;
+	line-height: 24pt;
+    vertical-align: bottom;
+    text-align:center;
+}
+
+.logo, .subtitle {
+    margin: 10px 0;
+}
+
+.text-section {
+    /*padding: 0 4em 0 2em;*/
+    margin:0 auto;
+    font-size: 16pt;
+    line-height: 1.8;
+}
+
+.about .about-video {
+    margin: 0 auto;
+    display: block;
 }
 
 a:hover {
@@ -124,8 +151,8 @@ strong {
 .home h2 {
 	color: #687072;
 	font-size: 27px;
-	line-height: 70px;
-	margin-bottom: 45px;
+	line-height: 55px;
+	margin-bottom: 15px;
 	vertical-align: middle;
 	opacity: 1
 }
@@ -139,15 +166,14 @@ strong {
 }
 
 .triptych {
-	width: 900px;
-	margin: 20px auto 20px;
+	width: 940px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 2em auto;
 }
 
 .triptych li {
-	width: 300px;
-    margin: 0 20px;
+	width: 15em;
 }
 
 .triptych li p {
@@ -166,7 +192,6 @@ strong {
 .triptych h3 {
 	font-size: 22px;
 	margin: 0 auto 0.3em auto;
-	width: 220px;
     min-height: 2em;
 }
 
@@ -585,7 +610,8 @@ strong {
 	}
 
 	.triptych li {
-		width: 33%;
+        flex-shrink: 5;
+        flex-basis: 33%;
 		margin-left: 0;
 		padding: 0 20px;
 		-webkit-box-sizing: border-box;
@@ -630,7 +656,23 @@ strong {
 }
 
 @media only screen and (max-width: 800px), (max-device-width: 1050px) and (orientation: portrait) {
-	.triptych h3 {
+
+	.duo, .triptych {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+	.duo-left, .duo-right, .triptych li {
+        width: 80%;
+        margin-bottom: 10px;
+        flex-basis: auto;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+
+
+    .triptych h3 {
 		width: auto;
 		padding: 0 10px;
 		margin-bottom: 10px
@@ -655,10 +697,15 @@ strong {
 }
 
 @media only screen and (max-width: 680px) {
+    .about-video {
+        display: block;
+        overflow: hidden;
+        height: 0;
+    }
 	.triptych li {
 		float: none;
 		width: 100%;
-		margin-bottom: 50px
+		margin-bottom: 20px
 	}
 
 	.home h2 {
